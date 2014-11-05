@@ -15,11 +15,11 @@
 </dependency>
 
 <!-- for JPA, use hibernate-entitymanager instead of hibernate-core -->
-<!--  dependency>
+<dependency>
     <groupId>org.hibernate</groupId>
     <artifactId>hibernate-entitymanager</artifactId>
     <version>4.3.6.Final</version>
-</dependency-->
+</dependency>
 
 <!-- optional -->
 <dependency>
@@ -70,7 +70,24 @@
 </dependency>
 
 
+<dependency>
+	<groupId>org.testng</groupId>
+	<artifactId>testng</artifactId>
+	<version>6.8.8</version>
+</dependency>
+        
+
 <!-- test -->
+
+
+  <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.14.8</version>
+            <scope>provided</scope>
+        </dependency>
+
 
 </dependencies>
 
